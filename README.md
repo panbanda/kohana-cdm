@@ -6,7 +6,7 @@ A module for managing cassandra (http://cassandra.apache.org/) communication ins
 
 ### Modify the Config File
 
-Move config/cdm.php to your application config directory and modify your Amazon security information as Cassandra indicates.
+Move config/cdm.php to your application config directory and modify.
 
 ### Code Away!
 
