@@ -4,8 +4,6 @@ A module for managing cassandra (http://cassandra.apache.org/) communication ins
 
 ## Quick Start
 
-This is a wrapper module to avoid entering your private key and and access key each time you call methods.  It also contains a helper for linking to assets inside of your S3 buckets.  It supports streaming URLs if your bucket is streaming.  Please see the config file.
-
 ### Modify the Config File
 
 Move config/cdm.php to your application config directory and modify your Amazon security information as Cassandra indicates.
