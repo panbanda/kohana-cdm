@@ -1,3 +1,3 @@
-<?php
+<?php defined('SYSPATH') or die('No direct script access.');
 
-class CDM extends Core_CDM { }
+class CDM extends Kohana_CDM {}

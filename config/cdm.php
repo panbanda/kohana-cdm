@@ -1,26 +1,17 @@
-<?php
+<?php defined('SYSPATH') or die('No direct script access.');
 
 return array
 (
-	// Values can be set in model
-	'default' => array
-	(
-		'keyspace' => 'Keyspace1'
-	),
-
-	// Thrift vendor files
-	'thrift' => MODPATH . 'cassandra/vendor/phpcassa/thrift',
-
-	// Server connection
+	'keyspace' => 'default',
 	'connection' => array
 	(
-		'servers' => array
+		'hosts' => array
 		(
-			array 
+			array
 			(
-				'host' 	=> '127.0.0.1',
-				'port' 	=> 9160,
+				'hostname' => '127.0.0.1',
+				'port'     => 9160,
 			),
-		)
-	)
+		),
+	),
 );

@@ -1,0 +1,3 @@
+[submodule "vendor/phpcassa"]
+	path = vendor/phpcassa
+	url = git://github.com/hoan/phpcassa.git
